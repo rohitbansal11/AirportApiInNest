@@ -1,0 +1,184 @@
+{
+	"info": {
+		"_postman_id": "0b8af390-a53e-403a-aedc-57535e06dbd7",
+		"name": "Airport",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "all world Airport ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Airport data  Like Name city, state , County",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/country/sate/city",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"country",
+						"sate",
+						"city"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get airport data Filter By country name  result - like Name , city, state ,county",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/country/India",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"country",
+						"India"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all airport data Filter By country result -code lat lon name etc all",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/all/country/India",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"all",
+						"country",
+						"India"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All data Filter By county/state",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/all/country/state/India/Uttar Pradesh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"all",
+						"country",
+						"state",
+						"India",
+						"Uttar Pradesh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all data Filter By County/state/city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/all/country/state/city/India/Uttar Pradesh/Agra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"all",
+						"country",
+						"state",
+						"city",
+						"India",
+						"Uttar Pradesh",
+						"Agra"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Name,City,sate Filter By coubtry/state",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/country/state/India/gujarat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"country",
+						"state",
+						"India",
+						"gujarat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Name,City,sate Filter By coubtry/state/city",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/country/state/city/India/gujarat/ahmedabad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"country",
+						"state",
+						"city",
+						"India",
+						"gujarat",
+						"ahmedabad"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
